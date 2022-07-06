@@ -1,0 +1,46 @@
+[中央气象台]
+
+中央气象台
+http://www.nmc.cn/
+
+中央气象台 降水实况
+http://www.nmc.cn/publish/observations/hourly-precipitation.html
+
+中央气象台 气温预报
+http://www.nmc.cn/publish/temperature/hight/24hour.html
+
+中央气象台 雷达图
+http://www.nmc.cn/publish/radar/chinaall.html
+
+中央气象台 空气质量
+http://www.nmc.cn/publish/environment/air_pollution-24.html
+
+中央气象台 台风
+http://www.nmc.cn/publish/typhoon/probability-img2.html
+
+[中国天气网]
+
+可视化地图
+http://www.weather.com.cn/radar/
+
+雷达拼图
+http://www.weather.com.cn/radar/index2021.shtml
+
+中长期天气预报
+http://products.weather.com.cn/yb.html?page=YB&type=YB_TQQS_10D
+
+全国降水预报
+http://products.weather.com.cn/sk.html?page=YB&type=YB_JSL_024
+
+[灾害天气类]
+
+可视化台风+各种叠加图层地图
+http://typhoon.nmc.cn/web.html
+
+和上一个差不多
+http://typhoon.weather.com.cn/gis/typhoon_full.shtml
+
+[其它]
+
+IBM 天气
+https://weather.com/zh-CN/weather/today/

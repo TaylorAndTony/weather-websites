@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.global.min.js"
+        integrity="sha512-rCO3ZZnxh9j/Y725Iq2Cqr2lc9fi83zVeN3PFTUosktylZsCFjD13PDbKrzKjKO/idjM4KlMQC52AsoGFTAe6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Weather AIO</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="top">
+            <div id="top-blue-mask"></div>
+            <img src="img/mt2.png" alt="" id="top-img">
+            <!-- <div id="big-title">{{title}}</div> -->
+            <img src="img/title.png" alt="" id="top-title">
+        </div>
+        <div id="bottom">
+            <div class="row" v-for="g in groups">
+                <div class="gtitle">{{g.groupname}}</div>
+                <div class="card-wrapper">
+                    <div class="card" v-for="site in g.groupsite" @click="handleClick(site.site)">
+                        <div class="card-title">{{site.name}}</div>
+                        <div class="card-sep"></div>
+                        <div class="card-info">{{site.desc}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
