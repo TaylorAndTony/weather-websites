@@ -51,7 +51,7 @@ html {
 
 /* bottom */
 #bottom {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 120px);
     overflow: scroll;
     background-color: var(--bg);
     padding: 20px 40px;
