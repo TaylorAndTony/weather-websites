@@ -26,6 +26,10 @@
                 <div class="gtitle">{{g.groupname}}</div>
                 <div class="card-wrapper">
                     <div class="card" v-for="site in g.groupsite" @click="handleClick(site.site)">
+                        <div class="card-icon-div">
+                            <img :src="site.icon" alt="" class="card-icon">
+                        </div>
+                        <div class="card-sep"></div>
                         <div class="card-title">{{site.name}}</div>
                         <div class="card-sep"></div>
                         <div class="card-info">{{site.desc}}</div>

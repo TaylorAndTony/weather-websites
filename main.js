@@ -9,7 +9,8 @@ const App = {
                         {
                             name: '中央气象台',
                             site: 'http://www.nmc.cn/',
-                            desc: '中央气象台的官方网站'
+                            desc: '中央气象台的官方网站',
+                            icon: 'img/f.png'
                         },
                         {
                             name: '降水实况',
