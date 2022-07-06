@@ -30,6 +30,8 @@ html {
     background-color: var(--c1);
     opacity: .5;
     z-index: 10;
+    box-shadow: 0 5px 5px var(--c1),
+        0 10px 10px var(--c1);
 }
 
 #top-img {
@@ -86,6 +88,13 @@ html {
     border-bottom: 3px solid var(--c1);
     width: fit-content;
     padding: 5px 15px;
+    transition: all .2s;
+}
+
+.gtitle:hover {
+    color: var(--c2);
+    border-bottom: 3px solid var(--c2);
+    padding-right: 4rem;
 }
 
 .card-wrapper {
@@ -114,8 +123,12 @@ html {
 }
 
 .card-icon {
-    height: 100%;
+    height: 60px;
+    width: 60px;
     opacity: .8;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .card-title {
