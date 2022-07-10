@@ -55,6 +55,7 @@ html {
     /* height: calc(100vh - 120px); */
     /* overflow: scroll; */
     padding: 20px 40px;
+    backdrop-filter: blur(15px);
 }
 
 #bottom-img {
@@ -67,6 +68,7 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    filter: blur(6px);
 }
 
 /* row */
@@ -80,7 +82,6 @@ html {
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .15);
     border-radius: 10px;
-    backdrop-filter: blur(8px);
 }
 
 .gtitle {
