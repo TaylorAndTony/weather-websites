@@ -21,6 +21,7 @@
             <!-- <div id="big-title">{{title}}</div> -->
             <img src="img/title.png" alt="" id="top-title">
         </div>
+        <div id="bottom-img" ref="bg"></div>
         <div id="bottom">
             <div class="row" v-for="g in groups">
                 <div class="gtitle">{{g.groupname}}</div>
@@ -34,6 +35,15 @@
                         <div class="card-sep"></div>
                         <div class="card-info">{{site.desc}}</div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gtitle">设置</div>
+                <div class="card-wrapper">
+                    <div class="div-button" @click="chbackground('bg1.jpg')">背景图1</div>
+                    <div class="div-button" @click="chbackground('bg2.jpg')">背景图2</div>
+                    <div class="div-button" @click="chbackground('bg3.jpg')">背景图3</div>
+                    <div class="div-button" @click="chbackground('bg4.jpg')">背景图4</div>
                 </div>
             </div>
         </div>

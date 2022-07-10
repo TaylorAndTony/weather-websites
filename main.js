@@ -110,6 +110,9 @@ const App = {
         handleClick(url) {
             console.log('handleClick', url);
             window.open(url);
+        },
+        chbackground(bgName) {
+            this.$refs.bg.style.backgroundImage = `url(img/${bgName})`;
         }
     }
 };
